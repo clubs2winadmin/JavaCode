@@ -1,6 +1,6 @@
 package com.clubs2win;
 
-import java.util.Random;
+
 
 /**
  * Created by sumitchawla on 10/18/15.
@@ -33,14 +33,6 @@ public class Student {
         id = ++lastIdUsed;
         pass = false;
 
-        // Randomly assign test scores for the 5 tests to the student
-        scores = new int[5];
-
-        for (int i=0; i<5;i++)
-        {
-            Random r = new Random();
-            scores[i] = r.nextInt(60);
-        }
 
     }
 
