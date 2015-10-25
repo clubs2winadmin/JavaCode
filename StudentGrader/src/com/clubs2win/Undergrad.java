@@ -14,8 +14,6 @@ public class Undergrad extends Student
     @Override
     public boolean isPass()
     {
-        boolean pass = false;
-
         if(averageScore() > 40)
         {
             pass = true;

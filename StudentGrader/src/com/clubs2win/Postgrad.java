@@ -12,8 +12,6 @@ public class Postgrad extends Student
     @Override
     public boolean isPass()
     {
-        boolean pass = false;
-
         if(averageScore()>50)
         {
             pass = true;
